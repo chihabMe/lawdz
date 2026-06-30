@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fam-001",
+    "query_fr": "Quelles sont les conditions du divorce selon le code de la famille algérien ?",
+    "query_ar": "ما هي شروط الطلاق حسب قانون الأسرة الجزائري؟",
+    "lang": "fr",
+    "expected_refs": ["Code de la Famille", "art."],
+    "notes": "Should cite relevant articles on divorce grounds and procedure."
+  },
+  {
+    "id": "civ-001",
+    "query_fr": "Quel est l'âge de la majorité civile en Algérie ?",
+    "lang": "fr",
+    "expected_refs": ["Code Civil"],
+    "notes": "Straightforward fact from Civil Code."
+  }
+]

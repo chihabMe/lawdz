@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+.venv
+.env
+.env.*
+data/raw/*
+data/processed/*
+*.sqlite3
+.git
+.github
+evaluation/results
+*.log
+staticfiles

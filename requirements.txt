@@ -1,0 +1,28 @@
+# Django core
+Django>=5.0,<6.0
+djangorestframework>=3.15
+
+# RAG + embeddings + LLM
+llama-index>=0.10.0
+llama-index-embeddings-huggingface
+llama-index-llms-ollama
+llama-index-vector-stores-chroma
+chromadb>=0.5
+
+# PDF parsing (bilingual support)
+pymupdf>=1.24
+pdfplumber
+
+# Arabic / multilingual helpers
+arabic-reshaper
+python-bidi
+
+# Utils
+python-dotenv
+requests
+pydantic
+
+# Dev / testing (optional)
+pytest
+black
+ruff

@@ -1,0 +1,106 @@
+version: "3.9"
+
+services:
+  traefik:
+    image: traefik:v3.0
+    container_name: lawdz-traefik
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      # - "--entrypoints.websecure.address=:443"   # enable for real TLS later
+      # - "--certificatesresolvers.letsencrypt.acme.tlschallenge=true"
+    ports:
+      - "80:80"
+      - "8080:8080"   # Traefik dashboard
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - lawdz-net
+
+  web:
+    build: .
+    container_name: lawdz-web
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py collectstatic --noinput &&
+             gunicorn lawdz.wsgi:application --bind 0.0.0.0:8000 --workers 3"
+    env_file:
+      - .env
+    environment:
+      - DEBUG=1
+    volumes:
+      - .:/app
+      - lawdz-data:/app/data
+    depends_on:
+      - chroma
+      # - ollama   # uncomment when using local LLM
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.web.rule=Host(`lawdz.localhost`) || PathPrefix(`/api`)"
+      - "traefik.http.routers.web.entrypoints=web"
+      - "traefik.http.services.web.loadbalancer.server.port=8000"
+      - "traefik.http.middlewares.strip-api.stripprefix.prefixes=/api"
+      # Uncomment if you want /api prefix stripped before hitting Django:
+      # - "traefik.http.routers.web.middlewares=strip-api"
+    networks:
+      - lawdz-net
+    restart: unless-stopped
+
+  # Optional: Streamlit UI (MVP chat frontend)
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lawdz-ui
+    command: >
+      sh -c "pip install streamlit && streamlit run ui/streamlit_app.py --server.port 8501 --server.address 0.0.0.0"
+    env_file:
+      - .env
+    environment:
+      - DJANGO_API_URL=http://web:8000/api   # internal service name
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"   # direct access for now; route via Traefik later
+    depends_on:
+      - web
+    networks:
+      - lawdz-net
+    profiles: ["ui"]   # start with: docker compose --profile ui up
+
+  chroma:
+    image: chromadb/chroma:0.5.5
+    container_name: lawdz-chroma
+    volumes:
+      - lawdz-chroma:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE
+    networks:
+      - lawdz-net
+    restart: unless-stopped
+
+  # Uncomment for fully local LLM (recommended for dev/privacy)
+  # ollama:
+  #   image: ollama/ollama:latest
+  #   container_name: lawdz-ollama
+  #   volumes:
+  #     - lawdz-ollama:/root/.ollama
+  #   ports:
+  #     - "11434:11434"
+  #   networks:
+  #     - lawdz-net
+  #   restart: unless-stopped
+  #   # Pull a model on first run (or do it manually):
+  #   # command: ["ollama", "run", "llama3.2"]
+
+volumes:
+  lawdz-data:
+  lawdz-chroma:
+  # lawdz-ollama:
+
+networks:
+  lawdz-net:
+    driver: bridge
