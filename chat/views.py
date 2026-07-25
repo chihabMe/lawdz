@@ -20,16 +20,19 @@ def chat(request):
     if not query:
         return Response({"error": "query is required"}, status=status.HTTP_400_BAD_REQUEST)
 
-    # TODO Phase 2: call RAG engine here
-    # For now return a stub that demonstrates the contract
+    from chat.rag.engine import answer_query
+
+    lang = request.data.get("lang", "fr")
+    
+    # Call the RAG engine
+    rag_response = answer_query(query, lang=lang)
+
     return Response({
         "query": query,
-        "answer": "RAG pipeline not wired yet. This is a placeholder response.",
-        "citations": [
-            {"code": "Code Civil", "article": "Exemple Art. 1", "source_url": "https://www.joradp.dz/TRV/FCivil.pdf"}
-        ],
+        "answer": rag_response["answer"],
+        "citations": rag_response["citations"],
         "disclaimer": DISCLAIMER,
-        "used_context_count": 0,
+        "used_context_count": len(rag_response.get("context_used", [])),
     })
 
 

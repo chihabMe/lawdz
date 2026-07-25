@@ -1,0 +1,100 @@
+[
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 1,
+    "article_label": "Article 1er",
+    "lang": "fr",
+    "content": ". - Toutes les relations entre les membres de la famille sont régies par les dispositions de la présente loi."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 2,
+    "article_label": "Article 2",
+    "lang": "fr",
+    "content": ". - La famille est la cellule de base de la société. Elle est composée de personnes unies par les liens du mariage et de la parenté."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 4,
+    "article_label": "Article 4",
+    "lang": "fr",
+    "content": ". - Le mariage est un contrat conclu entre un homme et une femme selon les formes légales. Il a notamment pour buts de fonder une famille basée sur l'affection, la bonté et l'entraide."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 48,
+    "article_label": "Article 48",
+    "lang": "fr",
+    "content": ". - Le mariage se dissout par le décès de l'un des époux ou par le divorce. Le divorce est la dissolution du mariage. Il intervient par la volonté du mari, par consentement mutuel des deux époux ou à la demande de l'épouse dans les cas prévus par la loi."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 49,
+    "article_label": "Article 49",
+    "lang": "fr",
+    "content": ". - Le divorce ne peut être prouvé que par jugement après plusieurs tentatives de conciliation effectuées par le juge."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 53,
+    "article_label": "Article 53",
+    "lang": "fr",
+    "content": ". - Il est permis à l'épouse de demander le divorce pour les causes suivantes: défaut de paiement de la pension alimentaire, infirmités empêchant la réalisation du but du mariage, absence du mari de plus d'un an sans excuse valable.\n\n====================================================================\nCODE CIVIL (القانون المدني)\n===================================================================="
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 1,
+    "article_label": "Article 1er",
+    "lang": "fr",
+    "content": ". - La loi s'applique à toutes les matières auxquelles se rapportent la lettre ou l'esprit de l'une de ses dispositions."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 2,
+    "article_label": "Article 2",
+    "lang": "fr",
+    "content": ". - La loi ne dispose que pour l'avenir; elle n'a point d'effet rétroactif."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 106,
+    "article_label": "Article 106",
+    "lang": "fr",
+    "content": ". - Le contrat fait la loi des parties. Il ne peut être révoqué ni modifié que de leur consentement mutuel ou pour les causes prévues par la loi."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 124,
+    "article_label": "Article 124",
+    "lang": "fr",
+    "content": ". - Tout fait quelconque de l'homme qui cause à autrui un dommage oblige celui par la faute duquel il est arrivé à le réparer."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 774,
+    "article_label": "Article 774",
+    "lang": "fr",
+    "content": ". - La propriété est le droit de jouir et de disposer des choses de la manière la plus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les règlements.\n\n====================================================================\nCODE PENAL (قانون العقوبات)\n===================================================================="
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 1,
+    "article_label": "Article 1er",
+    "lang": "fr",
+    "content": ". - Il n'y a pas d'infraction, ni de peine ou de mesure de sûreté, sans loi."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 254,
+    "article_label": "Article 254",
+    "lang": "fr",
+    "content": ". - Est qualifié meurtre, l'homicide commis volontairement."
+  },
+  {
+    "law_code": "family_civil_penal",
+    "article_number": 350,
+    "article_label": "Article 350",
+    "lang": "fr",
+    "content": ". - Quiconque soustrait frauduleusement une chose qui ne lui appartient pas est coupable de vol."
+  }
+]

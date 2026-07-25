@@ -57,7 +57,7 @@ services:
     env_file:
       - .env
     environment:
-      - DJANGO_API_URL=http://web:8000/api   # internal service name
+      - DJANGO_API_URL=http://web:8000/api/chat/   # internal service name
     volumes:
       - .:/app
     ports:

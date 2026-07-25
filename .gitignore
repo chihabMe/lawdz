@@ -1,65 +1,59 @@
-# Python / Django
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual env
 .venv/
 venv/
 ENV/
-env/
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Django
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-media/
-staticfiles/
+# AI Model Files (large binaries)
+*.gguf
+*.bin
+*.safetensors
+*.onnx
 
-# IDE
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+lawdz_mobile/.dart_tool/
+lawdz_mobile/build/
+lawdz_mobile/.pub/
+lawdz_mobile/.flutter-plugins
+lawdz_mobile/.flutter-plugins-dependencies
+
+# Android
+lawdz_mobile/android/.gradle/
+lawdz_mobile/android/local.properties
+lawdz_mobile/android/app/SDK_LOCATION
+*.ap_
+*.apk
+*.aab
+
+# iOS / macOS
+*.ipa
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/Pods/
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+
+# IDE & System Files
 .idea/
 .vscode/
 *.swp
 *.swo
-
-# Environment
-.env
-.env.*
-!.env.example
-
-# Data (large or generated)
-data/raw/
-data/processed/
-*.faiss
-*.index
-chroma/
-
-# Docker
-*.pid
-
-# OS
 .DS_Store
-Thumbs.db
-
-# Misc
-*.bak
-*.tmp
-evaluation/results/
