@@ -37,3 +37,11 @@ Article 1er. - Il n'y a pas d'infraction, ni de peine ou de mesure de sûreté, 
 Article 254. - Est qualifié meurtre, l'homicide commis volontairement.
 
 Article 350. - Quiconque soustrait frauduleusement une chose qui ne lui appartient pas est coupable de vol.
+
+====================================================================
+CODE DE COMMERCE (القانون التجاري)
+====================================================================
+
+Article 1er. - Sont commerçants ceux qui exercent des actes de commerce et en font leur profession habituelle.
+
+Article 544. - Les actes de commerce se prouvent par tous moyens à l'égard des commerçants, à moins qu'il n'en soit autrement disposé par la loi.
