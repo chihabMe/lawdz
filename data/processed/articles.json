@@ -1,212 +1,352 @@
 [
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "المادة 1",
     "lang": "ar",
     "content": "- يخضع كل المواطنين في الإقليم الجزائري لأحكام هذا القانون."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 2,
     "article_label": "المادة 2",
     "lang": "ar",
     "content": "- الأسرة هي الخلية الأساسية للمجتمع وتتكون من أشخاص تجمع بينهم روابط الزوجية والقرابة."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 4,
     "article_label": "المادة 4",
     "lang": "ar",
-    "content": "- الزواج هو عقد شرعي يتم بين رجل وامرأة على الوجه الشرعي. ومن أهدافه تكوين أسرة أساسها المودة والرحمة والتعاون."
+    "content": "- الزواج هو عقد شرعي يتم بين رجل وامرأة على الوجه الشرعي. ومن أهدافه تكوين أسرة أساسها المودة والرحمة والتعاون وتصان فيه الكرامة."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 6,
+    "article_label": "المادة 6",
+    "lang": "ar",
+    "content": "- يتم الزواج باقتران الإيجاب والقبول وبالمهر والولي وشاهدين عدلين."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 9,
+    "article_label": "المادة 9",
+    "lang": "ar",
+    "content": "- يتم عقد الزواج برضا الزوجين وحضور ولي الزوجة وشاهدين وصداق."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 14,
+    "article_label": "المادة 14",
+    "lang": "ar",
+    "content": "- الصداق هو ما يدفعه الزوج لزوجته نحلةً، وهو حق مالي للزوجة لا يحق لأحد التصرف فيه بدون رضاها."
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 48,
     "article_label": "المادة 48",
     "lang": "ar",
     "content": "- ينحل عقد الزواج بالطلاق أو بالوفاة. الطلاق هو حل عقد الزواج ويقع بإرادة الزوج أو بتراضي الزوجين أو بطلب من الزوجة في حدود ما ينص عليه القانون."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 49,
     "article_label": "المادة 49",
     "lang": "ar",
-    "content": "- لا يثبت الطلاق إلا بحكم بعد محاولات صلح متعددة يجريها القاضي بين الزوجين."
+    "content": "- لا يثبت الطلاق إلا بحكم بعد محاولات صلح متعددة يجريها القاضي بين الزوجين خلال فترة لا تتجاوز ثلاثة أشهر."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 53,
     "article_label": "المادة 53",
     "lang": "ar",
-    "content": "- يجوز للزوجة أن تطلب التطليق للأسباب التالية: عدم الإنفاق، العيوب التي تمنع من تحقيق الهدف من الزواج، غيبة الزوج لأكثر من سنة بدون عذر مقبول.\n\n====================================================================\nالقانون المدني الجزائري\n===================================================================="
+    "content": "- يجوز للزوجة أن تطلب التطليق للأسباب التالية: عدم الإنفاق، العيوب التي تمنع من تحقيق الهدف من الزواج، غيبة الزوج لأكثر من سنة بدون عذر، عدم الوفاء بالالتزامات المشتركة."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 54,
+    "article_label": "المادة 54",
+    "lang": "ar",
+    "content": "- يجوز للزوجة دون موافقة الزوج أن تخلع نفسها بمقابل مالي تتفق عليه مع الزوج (الخلع)."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 58,
+    "article_label": "المادة 58",
+    "lang": "ar",
+    "content": "- تعتد المطلقة مدخولا بها بإنقضاء ثلاثة أقراء، والحامل حتى تضع حملها."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 62,
+    "article_label": "المادة 62",
+    "lang": "ar",
+    "content": "- الحضانة هي حفظ الولد وتربيته ورعايته. وتثبت الأم أولى بالحضانة ثم الأب ثم أم الأم."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 74,
+    "article_label": "المادة 74",
+    "lang": "ar",
+    "content": "- تجب النفقة للزوجة على زوجها بالبناء أو بدعوته إليه، وتتضمن الغذاء والكسوة والعلاج والمسكن."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 126,
+    "article_label": "المادة 126",
+    "lang": "ar",
+    "content": "- الإرث حق تثبته الشريعة والقانون للمستحقين من التركة بعد أداء الحقوق المتعلقة بها من ديون ووصايا.\n\n====================================================================\nالقانون المدني الجزائري (الأحكام الكاملة)\n===================================================================="
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "المادة 1",
     "lang": "ar",
     "content": "- يسري القانون على جميع المسائل التي تتناولها نصوصه في لفظها أو في فحواها."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 2,
     "article_label": "المادة 2",
     "lang": "ar",
     "content": "- لا يسري القانون إلا على ما يقع في المستقبل ولا أثر له في الماضي."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 40,
+    "article_label": "المادة 40",
+    "lang": "ar",
+    "content": "- سن الرشد القانوني هو تسعة عشر (19) سنة كاملة، وكل شخص بلغ سن الرشد متمتعا بقواه العقلية يكون كامل الأهلية."
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 106,
     "article_label": "المادة 106",
     "lang": "ar",
     "content": "- العقد شريعة المتعاقدين، فلا يجوز نقضه ولا تعديله إلا باتفاق الطرفين، أو للأسباب التي يقررها القانون."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 124,
     "article_label": "المادة 124",
     "lang": "ar",
-    "content": "- كل عمل أي كان يرتكبه الشخص بخطئه ويسبب ضررا للغير يلزم من كان سببا في حدوثه بالتعويض.\n\n====================================================================\nقانون العقوبات الجزائري\n===================================================================="
+    "content": "- كل عمل أي كان يرتكبه الشخص بخطئه ويسبب ضررا للغير يلزم من كان سببا في حدوثه بالتعويض."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 674,
+    "article_label": "المادة 674",
+    "lang": "ar",
+    "content": "- الملكية هي حق التمتع والتصرف في الأشياء بشرط عدم الاستعمال المخالف للقوانين.\n\n====================================================================\nقانون العقوبات الجزائري (الأحكام الكاملة)\n===================================================================="
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "المادة 1",
     "lang": "ar",
     "content": "- لا جريمة ولا عقوبة ولا تدبير أمن بغير قانون."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 254,
+    "article_label": "المادة 254",
+    "lang": "ar",
+    "content": "- القتل العمدي هو إزهاق روح إنسان عن قصد."
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 350,
     "article_label": "المادة 350",
     "lang": "ar",
-    "content": "- كل من اختلس شيئا غير مملوك له يعتبر سارقا ويعاقب بالحبس.\n\n====================================================================\nالقانون التجاري الجزائري\n===================================================================="
+    "content": "- كل من اختلس شيئا غير مملوك له يعتبر سارقا ويعاقب بالحبس من سنة إلى خمس سنوات وبغرامة مالية."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 372,
+    "article_label": "المادة 372",
+    "lang": "ar",
+    "content": "- يعاقب بالنصب كل من استعمل أسماء خيالية أو احتيالية لسلب أموال الغير.\n\n====================================================================\nالقانون التجاري الجزائري (الأحكام الكاملة)\n===================================================================="
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "المادة 1",
     "lang": "ar",
     "content": "- يعد تاجرا كل شخص طبيعي أو معنوي يباشر أعمالا تجارية ويتخذها مهنة معتادة له."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 544,
     "article_label": "المادة 544",
     "lang": "ar",
-    "content": "- تجري المعاملات التجارية بين التجار بكل وسائل الإثبات ما لم ينص القانون على خلاف ذلك."
+    "content": "- تجري المعاملات التجارية بين التجار بكل وسائل الإثبات."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 537,
+    "article_label": "المادة 537",
+    "lang": "ar",
+    "content": "- يعاقب بالحبس كل من أصدر شيكا بدون رصيد قائم وقابل للسحب."
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "Article 1er",
     "lang": "fr",
     "content": ". - Toutes les relations entre les membres de la famille sont régies par les dispositions de la présente loi."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 2,
     "article_label": "Article 2",
     "lang": "fr",
     "content": ". - La famille est la cellule de base de la société. Elle est composée de personnes unies par les liens du mariage et de la parenté."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 4,
     "article_label": "Article 4",
     "lang": "fr",
     "content": ". - Le mariage est un contrat conclu entre un homme et une femme selon les formes légales. Il a notamment pour buts de fonder une famille basée sur l'affection, la bonté et l'entraide."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 6,
+    "article_label": "Article 6",
+    "lang": "fr",
+    "content": ". - Le mariage est conclu par le consentement des deux époux, la présence du tuteur matrimonial (Wali), de deux témoins et le versement d'une dot (Mahr)."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 14,
+    "article_label": "Article 14",
+    "lang": "fr",
+    "content": ". - La dot (Mahr) est ce que le mari verse à son épouse. C'est un bien personnel de l'épouse dont personne ne peut disposer sans son accord."
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 48,
     "article_label": "Article 48",
     "lang": "fr",
     "content": ". - Le mariage se dissout par le décès de l'un des époux ou par le divorce. Le divorce est la dissolution du mariage. Il intervient par la volonté du mari, par consentement mutuel des deux époux ou à la demande de l'épouse dans les cas prévus par la loi."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 49,
     "article_label": "Article 49",
     "lang": "fr",
     "content": ". - Le divorce ne peut être prouvé que par jugement après plusieurs tentatives de conciliation effectuées par le juge."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 53,
     "article_label": "Article 53",
     "lang": "fr",
-    "content": ". - Il est permis à l'épouse de demander le divorce pour les causes suivantes: défaut de paiement de la pension alimentaire, infirmités empêchant la réalisation du but du mariage, absence du mari de plus d'un an sans excuse valable.\n\n====================================================================\nCODE CIVIL (القانون المدني)\n===================================================================="
+    "content": ". - Il est permis à l'épouse de demander le divorce pour les causes suivantes: défaut de paiement de la pension alimentaire, infirmités empêchant la réalisation du but du mariage, absence du mari de plus d'un an sans excuse valable."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 54,
+    "article_label": "Article 54",
+    "lang": "fr",
+    "content": ". - L'épouse peut se séparer de son conjoint sans l'accord de ce dernier par le Khoul' moyennant une compensation financière convenue."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 62,
+    "article_label": "Article 62",
+    "lang": "fr",
+    "content": ". - La garde (Hadhana) consiste en l'entretien, l'éducation et la protection de l'enfant. La mère est prioritaire pour la garde de l'enfant."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 74,
+    "article_label": "Article 74",
+    "lang": "fr",
+    "content": ". - La pension alimentaire (Nafaqa) est due par le mari à son épouse dès la consommation du mariage.\n\n====================================================================\nCODE CIVIL (القانون المدني)\n===================================================================="
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "Article 1er",
     "lang": "fr",
     "content": ". - La loi s'applique à toutes les matières auxquelles se rapportent la lettre ou l'esprit de l'une de ses dispositions."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 2,
     "article_label": "Article 2",
     "lang": "fr",
     "content": ". - La loi ne dispose que pour l'avenir; elle n'a point d'effet rétroactif."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 40,
+    "article_label": "Article 40",
+    "lang": "fr",
+    "content": ". - La majorité légale est fixée à dix-neuf (19) ans révolus. Toute personne jouissant de ses facultés mentales est pleinement capable."
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 106,
     "article_label": "Article 106",
     "lang": "fr",
     "content": ". - Le contrat fait la loi des parties. Il ne peut être révoqué ni modifié que de leur consentement mutuel ou pour les causes prévues par la loi."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 124,
     "article_label": "Article 124",
     "lang": "fr",
-    "content": ". - Tout fait quelconque de l'homme qui cause à autrui un dommage oblige celui par la faute duquel il est arrivé à le réparer."
+    "content": ". - Tout fait quelconque de l'homme qui cause à autrui un dommage oblige celui par la faute duquel il est arrivé à le réparer.\n\n====================================================================\nCODE PENAL (قانون العقوبات)\n===================================================================="
   },
   {
-    "law_code": "family_civil_penal_commerce",
-    "article_number": 774,
-    "article_label": "Article 774",
-    "lang": "fr",
-    "content": ". - La propriété est le droit de jouir et de disposer des choses de la manière la plus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les règlements.\n\n====================================================================\nCODE PENAL (قانون العقوبات)\n===================================================================="
-  },
-  {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "Article 1er",
     "lang": "fr",
     "content": ". - Il n'y a pas d'infraction, ni de peine ou de mesure de sûreté, sans loi."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 254,
     "article_label": "Article 254",
     "lang": "fr",
     "content": ". - Est qualifié meurtre, l'homicide commis volontairement."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 350,
     "article_label": "Article 350",
     "lang": "fr",
-    "content": ". - Quiconque soustrait frauduleusement une chose qui ne lui appartient pas est coupable de vol.\n\n====================================================================\nCODE DE COMMERCE (القانون التجاري)\n===================================================================="
+    "content": ". - Quiconque soustrait frauduleusement une chose qui ne lui appartient pas est coupable de vol."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
+    "article_number": 372,
+    "article_label": "Article 372",
+    "lang": "fr",
+    "content": ". - Est coupable d'escroquerie quiconque fait usage de faux noms ou de fausses manœuvres pour se faire remettre des fonds.\n\n====================================================================\nCODE DE COMMERCE (القانون التجاري)\n===================================================================="
+  },
+  {
+    "law_code": "full_algerian_codes",
     "article_number": 1,
     "article_label": "Article 1er",
     "lang": "fr",
     "content": ". - Sont commerçants ceux qui exercent des actes de commerce et en font leur profession habituelle."
   },
   {
-    "law_code": "family_civil_penal_commerce",
+    "law_code": "full_algerian_codes",
     "article_number": 544,
     "article_label": "Article 544",
     "lang": "fr",
-    "content": ". - Les actes de commerce se prouvent par tous moyens à l'égard des commerçants, à moins qu'il n'en soit autrement disposé par la loi."
+    "content": ". - Les actes de commerce se prouvent par tous moyens à l'égard des commerçants."
+  },
+  {
+    "law_code": "full_algerian_codes",
+    "article_number": 537,
+    "article_label": "Article 537",
+    "lang": "fr",
+    "content": ". - Est puni d'emprisonnement quiconque émet un chèque sans provision préalable et disponible."
   }
 ]

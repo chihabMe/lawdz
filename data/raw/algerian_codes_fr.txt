@@ -8,11 +8,21 @@ Article 2. - La famille est la cellule de base de la société. Elle est compos�
 
 Article 4. - Le mariage est un contrat conclu entre un homme et une femme selon les formes légales. Il a notamment pour buts de fonder une famille basée sur l'affection, la bonté et l'entraide.
 
+Article 6. - Le mariage est conclu par le consentement des deux époux, la présence du tuteur matrimonial (Wali), de deux témoins et le versement d'une dot (Mahr).
+
+Article 14. - La dot (Mahr) est ce que le mari verse à son épouse. C'est un bien personnel de l'épouse dont personne ne peut disposer sans son accord.
+
 Article 48. - Le mariage se dissout par le décès de l'un des époux ou par le divorce. Le divorce est la dissolution du mariage. Il intervient par la volonté du mari, par consentement mutuel des deux époux ou à la demande de l'épouse dans les cas prévus par la loi.
 
 Article 49. - Le divorce ne peut être prouvé que par jugement après plusieurs tentatives de conciliation effectuées par le juge.
 
 Article 53. - Il est permis à l'épouse de demander le divorce pour les causes suivantes: défaut de paiement de la pension alimentaire, infirmités empêchant la réalisation du but du mariage, absence du mari de plus d'un an sans excuse valable.
+
+Article 54. - L'épouse peut se séparer de son conjoint sans l'accord de ce dernier par le Khoul' moyennant une compensation financière convenue.
+
+Article 62. - La garde (Hadhana) consiste en l'entretien, l'éducation et la protection de l'enfant. La mère est prioritaire pour la garde de l'enfant.
+
+Article 74. - La pension alimentaire (Nafaqa) est due par le mari à son épouse dès la consommation du mariage.
 
 ====================================================================
 CODE CIVIL (القانون المدني)
@@ -22,11 +32,11 @@ Article 1er. - La loi s'applique à toutes les matières auxquelles se rapporten
 
 Article 2. - La loi ne dispose que pour l'avenir; elle n'a point d'effet rétroactif.
 
+Article 40. - La majorité légale est fixée à dix-neuf (19) ans révolus. Toute personne jouissant de ses facultés mentales est pleinement capable.
+
 Article 106. - Le contrat fait la loi des parties. Il ne peut être révoqué ni modifié que de leur consentement mutuel ou pour les causes prévues par la loi.
 
 Article 124. - Tout fait quelconque de l'homme qui cause à autrui un dommage oblige celui par la faute duquel il est arrivé à le réparer.
-
-Article 774. - La propriété est le droit de jouir et de disposer des choses de la manière la plus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les règlements.
 
 ====================================================================
 CODE PENAL (قانون العقوبات)
@@ -38,10 +48,14 @@ Article 254. - Est qualifié meurtre, l'homicide commis volontairement.
 
 Article 350. - Quiconque soustrait frauduleusement une chose qui ne lui appartient pas est coupable de vol.
 
+Article 372. - Est coupable d'escroquerie quiconque fait usage de faux noms ou de fausses manœuvres pour se faire remettre des fonds.
+
 ====================================================================
 CODE DE COMMERCE (القانون التجاري)
 ====================================================================
 
 Article 1er. - Sont commerçants ceux qui exercent des actes de commerce et en font leur profession habituelle.
 
-Article 544. - Les actes de commerce se prouvent par tous moyens à l'égard des commerçants, à moins qu'il n'en soit autrement disposé par la loi.
+Article 544. - Les actes de commerce se prouvent par tous moyens à l'égard des commerçants.
+
+Article 537. - Est puni d'emprisonnement quiconque émet un chèque sans provision préalable et disponible.
